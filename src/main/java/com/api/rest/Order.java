@@ -19,7 +19,7 @@ public class Order {
   public String variant;
   public int quantity;
   public String address;
-  public int phoneNumber;
+  public String phoneNumber;
   public String expedition;
   public String status;
 }

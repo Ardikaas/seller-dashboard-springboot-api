@@ -15,4 +15,8 @@ public class User {
   public String name;
   public String email;
   public String password;
+  public String userImage;
+  public int completeOrder;
+  public int operationHour;
+  public double rating;
 }
