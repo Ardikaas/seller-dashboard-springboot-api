@@ -7,6 +7,7 @@ Welcome to the E-Commerce Seller Dashboard API repository! This project provides
 - Product Management: Add, update, delete, and view products.
 - Order Management: Manage customer orders and track order status.
 - Spring Boot: Robust and scalable application framework.
+- MongoDB: NoSQL database for flexible data storage.
 
 ## Getting Started
 
@@ -47,6 +48,44 @@ mvn spring-boot:run
 Once the application is running, you can access the API at http://localhost:8080. Use tools like [Postman](https://www.postman.com/) to test the API endpoints.
 
 ### API Endpoints
+
+#### User
+
+- GET /user/: Retrieve all users
+- GET /user/{id}: Retrieve user by ID
+- POST /user/: Create a new user
+- PUT /user/{id}: Update a user
+- DELETE /user/{id}: Delete a user
+
+#### Item
+
+- GET /item/: Retrieve all items
+- GET /item/{id}: Retrieve item by ID
+- POST /item/: Create a new item
+- PUT /item/{id}/add-variant: Add a variant to an item
+- PUT /item/{id}: Update an item
+- DELETE /item/{id}: Delete an item
+
+#### Review
+
+- GET /review/: Retrieve all reviews
+- POST /review/: Create a review
+- DELETE /review/{id}: Delete a review
+
+#### Chart
+
+- GET /chart/orders: Retrieve data for order chart
+- GET /chart/sales: Retrieve data for sales chart
+
+#### Order
+
+- GET /order/: Retrieve all orders
+- POST /order/: Create a new order
+- PUT /order/{id}/status-inprocess: Update order status to "in process"
+- PUT /order/{id}/status-readytoship: Update order status to "ready to ship"
+- PUT /order/{id}/status-onshipping: Update order status to "on shipping"
+- PUT /order/{id}/status-completed: Update order status to "completed"
+- DELETE /order/{id}: Delete an order
 
 ### Contributing
 
