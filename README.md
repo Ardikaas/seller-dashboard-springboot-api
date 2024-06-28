@@ -22,18 +22,25 @@ Before you begin, ensure you have the following installed:
 
 #### 1. Clone the repository:
 
+```bash
 git clone https://github.com/your-username/ecommerce-seller-dashboard-api.git
 cd ecommerce-seller-dashboard-api
+```
 
 #### 2. Configure MongoDB:
 
 Ensure MongoDB is running locally or update the application.properties file with your MongoDB connection details:
+
+```bash
 spring.data.mongodb.uri=mongodb://localhost:27017/your-database-name
+```
 
 #### 3. Build and run the application:
 
+```bash
 mvn clean install
 mvn spring-boot:run
+```
 
 ### Usage
 
