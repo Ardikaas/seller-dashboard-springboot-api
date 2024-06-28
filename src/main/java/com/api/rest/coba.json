@@ -1,0 +1,19 @@
+{
+  "status": {
+    "code": 200,
+    "message": "Success"
+  },
+  "data": [
+    {
+      "id": "667c0b01517d6045f54a0857",
+      "userName": "RandarzGitGut",
+      "userImage": "https://gambarprofile.jpg",
+      "itemId": "667bfdf7d4288f2377ac6e57",
+      "itemName": "baju",
+      "quantity": 2,
+      "variant": "Biru",
+      "rating": 4.5,
+      "testimoni": "Bagus banget barangnya kak.. recomended banget"
+    }
+  ]
+}
